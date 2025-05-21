@@ -457,3 +457,61 @@ body{
     border-left: 1px solid #e5e5e5;
     padding-left: 10px;
 }
+
+/* Weekly Section */
+.right-section .weekly{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.right-section .weekly .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.right-section .weekly .item:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.right-section .weekly .item > i{
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.right-section .weekly .item > i:hover{
+    color: #f86161;
+}
+
+.right-section .weekly .item .content{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right-section .weekly .item .content img{
+    max-width: 100px;
+    height: 66px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.right-section .weekly .item .content .info .view{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+.right-section .weekly .item .content .info .view h5,
+.right-section .weekly .item .content .info .view i{
+    font-weight: 500;
+    color: #555;
+}
