@@ -131,7 +131,7 @@ body{
 
 /* Banner Section */
 .main .banner{
-    width: 90%;
+    width: 100%;
     height: 320px;
     position: relative;
     display: flex;
@@ -193,6 +193,35 @@ body{
 .main .banner .video-info .item h3{
     font-size: 14px;
     font-weight: 400;
+}
+
+
+/* Separator Section */
+.main .separator{
+    padding: 26px 20px;
+}
+
+.main .separator .categories{
+    margin-top: 14px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 14px;
+}
+
+.main .separator .categories a{
+    white-space: nowrap;
+    padding: 8px 12px;
+    background: #e8f3f8;
+    border-radius: 12px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.main .separator .categories a.active,
+.main .separator .categories a:hover{
+    background: #15333a;
+    color: #fff;
 }
 
 /* End Main Content  */
